@@ -1980,8 +1980,8 @@ input, select, textarea {
 /* Item */
 
 	.item {
-		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		border-width: 2px;
 	}
 
 		.item header {
@@ -1989,8 +1989,17 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			border-top-right-radius: 40%;
+			border-top-left-radius: 40%;
 		}
-
+		.item footer {
+			background: #fff;
+			margin: 0;
+			padding: 1em 0 1em 0;
+			font-size: 0.8em;
+			border-bottom-right-radius: 40%;
+			border-bottom-left-radius: 40%;
+		}
 			.item header h3 {
 				font-size: 1em;
 			}
